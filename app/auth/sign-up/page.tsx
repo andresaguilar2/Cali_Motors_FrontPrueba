@@ -106,7 +106,6 @@ export default function Page() {
         email, 
         firstName, 
         lastName,
-        userId: data.userId 
       }))
 
       router.push('/auth/sign-up-success')
